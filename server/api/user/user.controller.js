@@ -32,6 +32,7 @@ exports.singleUser = (req, res) => {
       res.status(404).send(error);
     })
 }
+
 exports.saveUserFav = (req, res) => {
   let title = req.body.bookTitle;
   let UserId = req.body.userId;
